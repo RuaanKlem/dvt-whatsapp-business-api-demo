@@ -3,14 +3,14 @@ package com.dvt.model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Users {
+public class User {
     private String token;
     private String expires_after;
 
-    public Users() {
+    public User() {
     }
 
-    public Users(String token, String expires_after) {
+    public User(String token, String expires_after) {
         this.token = token;
         this.expires_after = expires_after;
     }

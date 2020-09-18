@@ -3,20 +3,20 @@ package com.dvt.model;
 import java.util.List;
 
 public class MessageList {
-    private List<Messages> messages;
+    private List<MessageResponse> messages;
 
     public MessageList() {
     }
 
-    public MessageList(List<Messages> messages) {
+    public MessageList(List<MessageResponse> messages) {
         this.messages = messages;
     }
 
-    public List<Messages> getMessages() {
+    public List<MessageResponse> getMessages() {
         return messages;
     }
 
-    public void setMessages(List<Messages> messages) {
+    public void setMessages(List<MessageResponse> messages) {
         this.messages = messages;
     }
 }

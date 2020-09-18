@@ -3,15 +3,15 @@ package com.dvt.model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Contacts {
+public class Contact {
     private String input;
     private String status;
     private String wa_id;
 
-    public Contacts() {
+    public Contact() {
     }
 
-    public Contacts(String input, String status, String wa_id) {
+    public Contact(String input, String status, String wa_id) {
         this.input = input;
         this.status = status;
         this.wa_id = wa_id;

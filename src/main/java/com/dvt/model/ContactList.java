@@ -3,20 +3,20 @@ package com.dvt.model;
 import java.util.List;
 
 public class ContactList {
-    private List<Contacts> contacts;
+    private List<Contact> contacts;
 
     public ContactList() {
     }
 
-    public ContactList(List<Contacts> contacts) {
+    public ContactList(List<Contact> contacts) {
         this.contacts = contacts;
     }
 
-    public List<Contacts> getContacts() {
+    public List<Contact> getContacts() {
         return contacts;
     }
 
-    public void setContacts(List<Contacts> contacts) {
+    public void setContacts(List<Contact> contacts) {
         this.contacts = contacts;
     }
 }

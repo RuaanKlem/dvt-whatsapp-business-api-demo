@@ -3,13 +3,13 @@ package com.dvt.model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Messages {
+public class MessageResponse {
     private String id;
 
-    public Messages() {
+    public MessageResponse() {
     }
 
-    public Messages(String id) {
+    public MessageResponse(String id) {
         this.id = id;
     }
 

@@ -3,20 +3,20 @@ package com.dvt.model;
 import java.util.List;
 
 public class UserLists {
-    private List<Users> users;
+    private List<User> users;
 
     public UserLists() {
     }
 
-    public UserLists(List<Users> users) {
+    public UserLists(List<User> users) {
         this.users = users;
     }
 
-    public List<Users> getUsers() {
+    public List<User> getUsers() {
         return users;
     }
 
-    public void setUsers(List<Users> users) {
+    public void setUsers(List<User> users) {
         this.users = users;
     }
 }
